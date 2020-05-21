@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/navigation"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/contentDescriptionFragment"
+        android:name="uk.co.rwapp.a11ybox.ContentDescriptionFragment"
+        android:label="Content Description" />
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="uk.co.rwapp.a11ybox.HomeFragment"
+        android:label="A11y Box">
+        <action
+            android:id="@+id/action_homeFragment_to_contentDescriptionFragment"
+            app:destination="@id/contentDescriptionFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_importantForAccessibilityFragment"
+            app:destination="@id/importantForAccessibilityFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_hintFragment"
+            app:destination="@id/hintFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_headingFragment"
+            app:destination="@id/headingFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_minimumSizeFragment"
+            app:destination="@id/minimumSizeFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_labelForFragment"
+            app:destination="@id/labelForFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_traversalOrderFragment"
+            app:destination="@id/traversalOrderFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/importantForAccessibilityFragment"
+        android:name="uk.co.rwapp.a11ybox.ImportantForAccessibilityFragment"
+        android:label="Important For Accessibility" />
+    <fragment
+        android:id="@+id/hintFragment"
+        android:name="uk.co.rwapp.a11ybox.HintFragment"
+        android:label="Hint" />
+    <fragment
+        android:id="@+id/headingFragment"
+        android:name="uk.co.rwapp.a11ybox.HeadingFragment"
+        android:label="Heading" />
+    <fragment
+        android:id="@+id/minimumSizeFragment"
+        android:name="uk.co.rwapp.a11ybox.MinimumSizeFragment"
+        android:label="Minimum Size" />
+    <fragment
+        android:id="@+id/labelForFragment"
+        android:name="uk.co.rwapp.a11ybox.LabelForFragment"
+        android:label="Label For" />
+    <fragment
+        android:id="@+id/traversalOrderFragment"
+        android:name="uk.co.rwapp.a11ybox.TraversalOrderFragment"
+        android:label="Traversal Order" />
+    <fragment
+        android:id="@+id/keyboardFocusOrderFragment"
+        android:name="uk.co.rwapp.a11ybox.DirectionalControlFragment"
+        android:label="Keyboard Directional Control" />
+    <fragment
+        android:id="@+id/semanticViewFragment"
+        android:name="uk.co.rwapp.a11ybox.SemanticViewFragment"
+        android:label="Semantic View" />
+    <fragment
+        android:id="@+id/accessibilityServicesFragment"
+        android:name="uk.co.rwapp.a11ybox.AccessibilityServicesFragment"
+        android:label="Accessibility Services" />
+    <fragment
+        android:id="@+id/liveRegionFragment"
+        android:name="uk.co.rwapp.a11ybox.LiveRegionFrgament"
+        android:label="Live Region" />
+    <fragment
+        android:id="@+id/removeAnimationsFragment"
+        android:name="uk.co.rwapp.a11ybox.RemoveAnimationsFragment"
+        android:label="Remove Animations" />
+    <fragment
+        android:id="@+id/captionsFragment"
+        android:name="uk.co.rwapp.a11ybox.CaptionsFragment"
+        android:label="Captions" />
+</navigation>

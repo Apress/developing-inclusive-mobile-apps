@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Accessibility Tree</string>
+    <string name="get_tree_button">Get Accessibility Tree</string>
+</resources>

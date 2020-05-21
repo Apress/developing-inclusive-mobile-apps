@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<!--    Listing 5-15 -->
+    <Button
+        android:id="@+id/content_description_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/content_description_title" />
+
+    <Button
+        android:id="@+id/important_for_accessibility_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/important_for_accessibility_title" />
+
+    <Button
+        android:id="@+id/hint_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hint_title" />
+
+    <Button
+        android:id="@+id/heading_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/heading_title" />
+
+    <Button
+        android:id="@+id/minimum_size_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/minimum_size_title" />
+
+    <Button
+        android:id="@+id/label_for_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_for_button" />
+
+    <Button
+        android:id="@+id/traversal_order_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/traversal_order_title" />
+
+    <Button
+        android:id="@+id/keyboard_focus_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/keyboard_focus_order" />
+
+    <Button
+        android:id="@+id/semantic_view_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/semantic_view_title" />
+
+    <Button
+        android:id="@+id/accessibility_services_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/accessibility_services_title" />
+
+    <Button
+        android:id="@+id/live_region_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/live_region_title" />
+
+    <Button
+    android:id="@+id/remove_animations_button"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/remove_animations_title" />
+
+    <Button
+        android:id="@+id/captions_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Captions" />
+
+
+</LinearLayout>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Content_Header" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MarsVista" translatesAutoresizingMaskIntoConstraints="NO" id="eqZ-Yx-iMm">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="300"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="xza-aa-k8d"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Red Planet" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i8h-dO-g5k">
+                                <rect key="frame" x="20" y="253.5" width="144.5" height="26.5"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mars" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cO4-ae-HMY">
+                                <rect key="frame" x="20" y="212" width="60" height="33.5"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3fC-jT-Owh">
+                                <rect key="frame" x="372" y="44" width="22" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="3fC-jT-Owh" secondAttribute="height" multiplier="11:10" id="JRR-2f-OMd"/>
+                                    <constraint firstAttribute="height" constant="20" id="UBr-EM-A5E"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
+                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <state key="normal" image="heart">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
+                                </state>
+                                <connections>
+                                    <action selector="pressedLike:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jOu-ec-mkp"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T6d-HL-Zlh">
+                                <rect key="frame" x="20" y="348" width="374" height="101.5"/>
+                                <string key="text">With virtually zero cloud cover combined with an average distance of 228 million km from the Sun, Mars makes the ideal destination for anyone looking to top up their tan without getting baked in the heat.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Destination" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vvy-U8-hsA">
+                                <rect key="frame" x="20" y="316" width="99.5" height="24"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WFW-eL-VKd" customClass="SliderContainer" customModule="A11y_Box" customModuleProvider="target">
+                                <rect key="frame" x="16" y="465.5" width="382" height="98.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Travelers: 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Qs-F2-RDa">
+                                        <rect key="frame" x="20" y="20" width="362" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="1" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="Ocn-0P-gfu">
+                                        <rect key="frame" x="-2" y="48.5" width="386" height="31"/>
+                                        <connections>
+                                            <action selector="sliderValueChanged" destination="WFW-eL-VKd" eventType="valueChanged" id="DtV-8u-xnj"/>
+                                        </connections>
+                                    </slider>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="Ocn-0P-gfu" secondAttribute="trailing" id="5fV-Di-4L0"/>
+                                    <constraint firstAttribute="trailing" secondItem="9Qs-F2-RDa" secondAttribute="trailing" id="AhE-u6-y9N"/>
+                                    <constraint firstItem="9Qs-F2-RDa" firstAttribute="top" secondItem="WFW-eL-VKd" secondAttribute="top" constant="20" symbolic="YES" id="HMU-hI-KQg"/>
+                                    <constraint firstItem="Ocn-0P-gfu" firstAttribute="leading" secondItem="WFW-eL-VKd" secondAttribute="leading" id="NLq-LN-9XX"/>
+                                    <constraint firstAttribute="bottom" secondItem="Ocn-0P-gfu" secondAttribute="bottom" constant="20" symbolic="YES" id="R8n-hv-iUk"/>
+                                    <constraint firstItem="Ocn-0P-gfu" firstAttribute="top" secondItem="9Qs-F2-RDa" secondAttribute="bottom" constant="8" id="ZYU-AR-Iqo"/>
+                                    <constraint firstItem="9Qs-F2-RDa" firstAttribute="leading" secondItem="WFW-eL-VKd" secondAttribute="leading" constant="20" symbolic="YES" id="gr8-wb-mkP"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="slider" destination="Ocn-0P-gfu" id="UTr-sR-gJh"/>
+                                    <outlet property="title" destination="9Qs-F2-RDa" id="uyz-uo-s0o"/>
+                                </connections>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="T6d-HL-Zlh" secondAttribute="trailing" constant="20" id="4Fs-Os-goK"/>
+                            <constraint firstItem="WFW-eL-VKd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="8n6-vo-EoI"/>
+                            <constraint firstItem="T6d-HL-Zlh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Aio-YM-DNK"/>
+                            <constraint firstItem="WFW-eL-VKd" firstAttribute="top" secondItem="T6d-HL-Zlh" secondAttribute="bottom" constant="16" id="Du8-oK-pmh"/>
+                            <constraint firstItem="eqZ-Yx-iMm" firstAttribute="bottom" secondItem="i8h-dO-g5k" secondAttribute="bottom" constant="20" id="ENz-Ob-IfO"/>
+                            <constraint firstItem="eqZ-Yx-iMm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="HKi-M7-3gR"/>
+                            <constraint firstItem="i8h-dO-g5k" firstAttribute="top" secondItem="cO4-ae-HMY" secondAttribute="bottom" constant="8" id="MWD-g9-a9S"/>
+                            <constraint firstItem="cO4-ae-HMY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="PjO-dR-UxV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="3fC-jT-Owh" secondAttribute="trailing" constant="20" id="ZHh-hL-73g"/>
+                            <constraint firstItem="i8h-dO-g5k" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="bMk-8c-NVv"/>
+                            <constraint firstItem="vvy-U8-hsA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="dAX-BB-tiq"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="WFW-eL-VKd" secondAttribute="bottom" constant="16" id="edU-FO-VTt"/>
+                            <constraint firstItem="eqZ-Yx-iMm" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="fAM-wz-831"/>
+                            <constraint firstItem="3fC-jT-Owh" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="hcu-Lm-IVq"/>
+                            <constraint firstItem="T6d-HL-Zlh" firstAttribute="top" secondItem="vvy-U8-hsA" secondAttribute="bottom" constant="8" id="hez-BK-hZN"/>
+                            <constraint firstItem="eqZ-Yx-iMm" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="iIw-AH-Izq"/>
+                            <constraint firstItem="vvy-U8-hsA" firstAttribute="top" secondItem="eqZ-Yx-iMm" secondAttribute="bottom" constant="16" id="iPJ-ah-glY"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="WFW-eL-VKd" secondAttribute="trailing" constant="16" id="scf-qm-UAv"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="content" destination="T6d-HL-Zlh" id="TaD-Kh-jPr"/>
+                        <outlet property="likeButton" destination="3fC-jT-Owh" id="Ov2-kO-JBp"/>
+                        <outlet property="pageTitle" destination="cO4-ae-HMY" id="U1k-dn-46l"/>
+                        <outlet property="subtitle" destination="i8h-dO-g5k" id="71c-Kd-Hxq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="115.84821428571428"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="MarsVista" width="2265" height="1083"/>
+        <image name="heart" width="1026" height="900"/>
+    </resources>
+</document>

@@ -1,0 +1,107 @@
+/* 
+  Localizable.strings
+  A11y Box
+
+  Created by Rob Whitaker on 09/02/2020.
+  Copyright © 2020 RWAPP. All rights reserved.
+*/
+
+// Listing 7-4
+"EXAMPLE.accessibilityElements.TITLE" = "Accessibility Elements";
+"EXAMPLE.accessibilityLabels.TITLE" = "Accessibility Labels";
+"EXAMPLE.accessibilityValues.TITLE" = "Accessibility Values";
+"EXAMPLE.accessibilityHints.TITLE" = "Accessibility Hints";
+"EXAMPLE.accessibilityLanguage.TITLE" = "Accessibility Language";
+"EXAMPLE.accessibilityHidden.TITLE" = "Accessibility Element Hidden";
+"EXAMPLE.accessibilityViewIsModal.TITLE" = "Accessibility View Is Modal";
+"EXAMPLE.accessibilityTraversalOrder.TITLE" = "Accessibility Traversal Order";
+"EXAMPLE.accessibilityEscape.TITLE" = "Accessibility Escape";
+"EXAMPLE.accessibilityShortcuts.TITLE" = "Accessibility Shortcuts";
+"EXAMPLE.accessibilityFocus.TITLE" = "Accessibility Focus";
+"EXAMPLE.navigation.TITLE" = "Accessibility Navigation";
+"EXAMPLE.inputLabels.TITLE" = "User Input Labels";
+
+"FEATURE.guidedAccess.TITLE" = "Guided Access";
+"FEATURE.voiceOver.TITLE" = "VoiceOver";
+"FEATURE.text.TITLE" = "Text";
+"FEATURE.zoom.TITLE" = "Zoom";
+"FEATURE.transparency.TITLE" = "Reduce Transparency";
+"FEATURE.switch.TITLE" = "Switch Labels";
+"FEATURE.increasedContrast.TITLE" = "Increased Contrast";
+"FEATURE.differentiateColor.TITLE" = "Differentiate Without Color";
+"FEATURE.smartInvert.TITLE" = "Smart Invert Colors";
+"FEATURE.grayscale.TITLE" = "Grayscale";
+"FEATURE.animation.TITLE" = "Reduce Motion";
+"FEATURE.spokenContent.TITLE" = "Spoken Content";
+"FEATURE.darkMode.TITLE" = "Dark Mode";
+"FEATURE.assistiveTouch.TITLE" = "Assistive Touch";
+"FEATURE.shakeToUndo.TITLE" = "Shake to Undo";
+"FEATURE.switchControl.TITLE" = "Switch Control";
+"FEATURE.hearingDevices.TITLE" = "Hearing Devices";
+"FEATURE.monoAudio.TITLE" = "Mono Audio";
+"FEATURE.captions.TITLE" = "Captions";
+
+"EXAMPLE.LABELS.ACCESSIBILITY_LABEL" = "VoiceOver reads a different label to the one presented on screen.";
+
+"EXAMPLE.HINTS.HINT" = "VoiceOver reads the hint after a short pause.";
+
+"FEATURE.GUIDEDACCESS.ENABLED" = "Guided Access is currently enabled.";
+"FEATURE.GUIDEDACCESS.DISABLED" = "Guided Access is currently disabled.";
+
+"FEATURE.VOICEOVER.ENABLED" = "VoiceOver is currently enabled.";
+"FEATURE.VOICEOVER.DISABLED" = "VoiceOver is currently disabled.";
+"FEATURE.VOICEOVER.CONNNECTIVITY" = "Warning: Poor network connectivity detected";
+"FEATURE.VOICEOVER.LAYOUT_CHANGED" = "The screen's layout has changed.";
+"FEATURE.VOICEOVER.PITCH" = "This is the best app on the App Store!";
+"FEATURE.VOICEOVER.LANGUAGE" = "Hello in Spanish is: Hola";
+"FEATURE.VOICEOVER.SPELLED" = "Your account number ends in 1234";
+
+"FEATURE.TEXT.BOLD_ON" = "Bold text is currently enabled.";
+"FEATURE.TEXT.BOLD_OFF" = "Bold text is currently disabled.";
+
+"FEATURE.TRANSPARENCY.TRANSPARENCY_OFF" = "Reduce Transparency is currently disabled.";
+"FEATURE.TRANSPARENCY.TRANSPARENCY_ON" = "Reduce Transparency is currently enabled.";
+
+"FEATURE.INCREASED_CONTRAST.INCREASED_CONTRAST_OFF" = "Increased Contrast is currently disabled.";
+"FEATURE.INCREASED_CONTRAST.INCREASED_CONTRAST_ON" = "Increased Contrast is currently enabled.";
+
+"FEATURE.DIFFERENTIATE_COLOR.DIFFERENTIATE_COLOR_OFF" = "Differentiate Without Color is currently disabled.";
+"FEATURE.DIFFERENTIATE_COLOR.DIFFERENTIATE_COLOR_ON" = "Differentiate Without Color is currently enabled.";
+"FEATURE.DIFFERENTIATE_COLOR.WARNING" = "Warning";
+"FEATURE.DIFFERENTIATE_COLOR.CRITICAL" = "Critical";
+
+"FEATURE.GRAYSCALE.GRAYSCALE_OFF" = "Grayscale is currently disabled.";
+"FEATURE.GRAYSCALE.GRAYSCALE_ON" = "Grayscale is currently enabled.";
+"FEATURE.GRAYSCALE.WARNING" = "Warning";
+"FEATURE.GRAYSCALE.CRITICAL" = "Critical";
+
+"FEATURE.ANIMATION.ENABLED" = "Enabled";
+"FEATURE.ANIMATION.DISABLED" = "Disabled";
+
+"FEATURE.SPOKEN_CONTENT.SPEAK_SELECTION.ENABLED" = "Speak Selection is currently enabled";
+"FEATURE.SPOKEN_CONTENT.SPEAK_SELECTION.DISABLED" = "Speak Selection is currently disabled";
+"FEATURE.SPOKEN_CONTENT.SPEAK_SCREEN.ENABLED" = "Speak Screen is currently enabled";
+"FEATURE.SPOKEN_CONTENT.SPEAK_SCREEN.DISABLED" = "Speak Screen is currently disabled";
+
+"FEATURE.DARK_MODE.ENABLED" = "Dark Mode is currently enabled";
+"FEATURE.DARK_MODE.DISABLED" = "Dark Mode is currently disabled";
+
+"FEATURE.ASSISTIVE_TOUCH.ENABLED" = "Assistive Touch is currently enabled.";
+"FEATURE.ASSISTIVE_TOUCH.DISABLED" = "Assistive Touch is currently disabled.";
+
+"FEATURE.SHAKE_TO_UNDO.ENABLED" = "Shake to Undo is currently enabled.";
+"FEATURE.SHAKE_TO_UNDO.DISABLED" = "Shake to Undo is currently disabled.";
+
+"FEATURE.SWITCH_CONTROL.ENABLED" = "Switch Control is currently enabled.";
+"FEATURE.SWITCH_CONTROL.DISABLED" = "Switch Control is currently disabled.";
+
+"FEATURE.HEARING_DEVICES.NONE" = "No MFI hearing devices are currently connected.";
+"FEATURE.HEARING_DEVICES.LEFT" = "A left MFI hearing device is currently connected.";
+"FEATURE.HEARING_DEVICES.RIGHT" = "A right MFI hearing device is currently connected.";
+"FEATURE.HEARING_DEVICES.BOTH" = "Both left and right MFI hearing devices are currently connected.";
+
+"FEATURE.MONO_AUDIO.DISABLED" = "Mono Audio is currently disabled.";
+"FEATURE.MONO_AUDIO.ENABLED" = "Mono Audio is currently enabled.";
+
+"FEATURE.CAPTIONS.ENABLED" = "Captions are currently enabled.";
+"FEATURE.CAPTIONS.DISABLED" = "Captions are currently disabled.";
